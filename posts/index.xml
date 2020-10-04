@@ -1,0 +1,160 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Jason Downing</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>Recent content in Posts on Jason Downing</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>5 steps to plan your launch</title>
+            <link>http://localhost:1313/posts/2020-08-5-steps-to-launch/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            
+            <guid>http://localhost:1313/posts/2020-08-5-steps-to-launch/</guid>
+            <description>You can only launch once, so do it right
+With PalmPay live in Nigeria and Ghana live and 4 more African markets inflight, here are some lessons from my experience over the last 2 years.
+1. Do your research I know this might appear obvious, but understanding the market landscape before you start gives you the power to make better long term decisions.
+Spending time early on to get this right will direct your strategy and give your project plan a strong foundation.</description>
+            <content type="html"><![CDATA[<p><code>You can only launch once, so do it right</code></p>
+<p>With PalmPay live in Nigeria and Ghana live and 4 more African markets inflight, here are some lessons from my experience over the last 2 years.</p>
+<h2 id="1-do-your-research">1. Do your research</h2>
+<p>I know this might appear obvious, but understanding the market landscape before you start gives you the power to make better long term decisions.</p>
+<p>Spending time early on to get this right will direct your strategy and give your project plan a strong foundation. Knowing the market will give you a competitive edge - you need to buid a unique proposition for your customers to be successful and don&rsquo;t forget your customers know the market already.</p>
+<p>Doing your research means more than just competitive analysis (across features, UX, marketing, pricing). You must understand both the landscape and how different business models work in context. For example, for card payment processing you might want to look at different  aggregators, interchange (base costs), layers within the ecosystem (aggregators or direct connections?) and how fraud rates may impact your business.</p>
+<p>Lastly don&rsquo;t underestimate how pricing and promotions underpin your overall proposition. Having a good product is not enough, you must communicate your unique proposition clearly to customers.</p>
+<h2 id="2-plan-plan-plan">2. Plan, plan, plan</h2>
+<p>So we&rsquo;re agile, no need for a plan? Let&rsquo;s just &ldquo;assume&rdquo; it will work&hellip;</p>
+<p>A plan helps to bring everyone together, even if you don&rsquo;t use a Gantt chart! I strongly recommend capturing all the tasks across the entire launch project and map them to your timelines. You don&rsquo;t want a last minute issue from customer care holding things up just at the wrong point. Pull your team together on weekly calls, moving to daily ones as things get more urgent. Assign someone the project manager role and make sure everything is done on time! Talk about your risks and issues often.</p>
+<h2 id="3-go-fast-or-go-slow">3. Go fast or go slow?</h2>
+<p>Product launches come in many different shapes and sizes - the big bangs, the beta pilots, the waitlists. What will yours be?</p>
+<p>In Nigeria, we launched a waitlist where customers could earn some loyalty points by referring other customers into the waitlist. This created demand and we &lsquo;acquired&rsquo; tens of thousands of customers. Using the wait list we launch slowly by brining customers into the core service. During this period we tested our processes and made improvements. Others have been extremely successful with this approach (see Robinhood for example), but your approach will depend on the product and market.</p>
+<p>In general, going slowly can help the business learn and build in quality before you on-board too many customers. Scaling can bring its own challenges.</p>
+<h2 id="4-go-step-by-step">4. Go step by step</h2>
+<p>Whatever your launch approach, try to agree phasing with your business teams so you can move step by step. Define these phases with clear inputs and outputs before you start. This will help give you a context to operate within as part of the project.</p>
+<p>For example, the Alpha pilot can start when all stakeholders sign off and UAT is finished (etc etc). The Alpha pilot transitions into the Beta phase when you&rsquo;ve had X customers and Y transactions, and when the customer feedback has been fully addressed.</p>
+<p>Keep your stakeholders close and update them daily.</p>
+<h2 id="5-metrics--success">5. Metrics = success</h2>
+<p>Your metrics decide how you will measure success - pick carefully! (a16z have some great posts about [this] (<a href="https://a16z.com/2015/08/21/16-metrics/)">https://a16z.com/2015/08/21/16-metrics/)</a>.</p>
+<p>If you have a data person, get them involved. Otherwise, make your stakeholders responsible for measuring their own metrics and publishing them too! Align on progress daily to start with and then weekly as everything stabilises.</p>
+<p><strong>Good Luck!</strong></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Building your Standard Operating Procedures</title>
+            <link>http://localhost:1313/posts/2020-08-building-your-sop/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            
+            <guid>http://localhost:1313/posts/2020-08-building-your-sop/</guid>
+            <description>Great services are build by amazing teams and strong processes
+adf
+Build your business rhythm adf
+Build your remote culture, pick your tools and use them adsf
+Get honest feedback with retrospectives afd
+Mix it up now and again adf
+Try to see each other once in a while adf
+Good Luck!</description>
+            <content type="html"><![CDATA[<p><code>Great services are build by amazing teams and strong processes</code></p>
+<p>adf</p>
+<h2 id="build-your-business-rhythm">Build your business rhythm</h2>
+<p>adf</p>
+<h2 id="build-your-remote-culture-pick-your-tools-and-use-them">Build your remote culture, pick your tools and use them</h2>
+<p>adsf</p>
+<h2 id="get-honest-feedback-with-retrospectives">Get honest feedback with retrospectives</h2>
+<p>afd</p>
+<h2 id="mix-it-up-now-and-again">Mix it up now and again</h2>
+<p>adf</p>
+<h2 id="try-to-see-each-other-once-in-a-while">Try to see each other once in a while</h2>
+<p>adf</p>
+<p><strong>Good Luck!</strong></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Hiring the best remotely: a checklist</title>
+            <link>http://localhost:1313/posts/2020-08-remote-hiring-ticklist-/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            
+            <guid>http://localhost:1313/posts/2020-08-remote-hiring-ticklist-/</guid>
+            <description>There is so much talent out there, you just need to find it
+I&amp;rsquo;ve worked with remote teams across Africa, Europe, America and Asia and have been hiring remote product teams over the last 3 years. Here are is a checklist to help
+Know what you want (aka write the perfect JD) You are the hiring manager! It is your role to shape the macro and micro aspects of the role.</description>
+            <content type="html"><![CDATA[<p><code>There is so much talent out there, you just need to find it</code></p>
+<p>I&rsquo;ve worked with remote teams across Africa, Europe, America and Asia and have been hiring remote product teams over the last 3 years. Here are is a checklist to help</p>
+<h2 id="know-what-you-want-aka-write-the-perfect-jd">Know what you want (aka write the perfect JD)</h2>
+<p>You are the hiring manager! It is your role to shape the macro and micro aspects of the role.</p>
+<p>For example, if you need a new Product Manager:</p>
+<ul>
+<li>Is it a technical, design, operational or a general role?</li>
+<li>What kind of sector experience would you like?</li>
+<li>How senior is the role?</li>
+<li>What kind of background experiences should they have?</li>
+<li>Are there any deal breakers?</li>
+</ul>
+<p>The Job Description (JD) must be reasonable - sometimes the &ldquo;perfect&rdquo; person doesn&rsquo;t exist within your budget or may not exist at all! Work with your HR team and manager to improve your thinking before publishing the role openly.</p>
+<p>As you go through the interview process think carefully about the trade offs between different aspects of the role. For example, if you want a generalist what is the balance between new product development and strategy or commercial acumen and operational experience. Understanding your preferences can help you select the best candidate.</p>
+<h2 id="source-candidates">Source candidates</h2>
+<p>Use your HR team and personal network to find suitable candidates - the more the better!</p>
+<h2 id="filter-and-screen">Filter and screen</h2>
+<p>Now that you have a virtual pile of CVs, you need to find the best candidate.</p>
+<p>Your approach may change depending on the seniority of the role. Usually the steps would be review, telephone screening, homework, 2nd round screening and then approval.</p>
+<p>To review the CVs, I follow this process:</p>
+<ol>
+<li>Review each candidate (CV / cover letter)</li>
+<li>Decide whether they meet the quality bar of the JD - you&rsquo;ll find this increases as you review more CVs</li>
+<li>IF yes, add the a &ldquo;to interview&rdquo; folder. IF no, discard</li>
+<li>Repeat steps 1 and 2 until you end up with around 10 CVs and then order best to worse</li>
+<li>Start with 30 minute phone conversations with the top 3-5 candidates</li>
+<li>If candidates pass the phone screening, THEN assign homework. IF not, then pause the conversation with them. You may still come back to them late depending on the circumstances</li>
+</ol>
+<p>At the end of the process you should have a better understanding of each candidate and understand your preferences. However, you need to validate whether your gut feeling is right - to do this set the candidates some homework.</p>
+<h2 id="practically-assess-skill-levels-aka-set-homework">Practically assess skill levels (aka set homework)</h2>
+<p>By now you should have around 5 good quality candidates for your role.</p>
+<p>The simplest way to differentiate is by setting them a homework task. Recently some companies have set very high bars in this area for their candidates with complex tasks for even business development. I would try to avoid this type of abusing of power and focus on the role itself.</p>
+<p>Usually I pick an open ended problem which allows the candidate to investigate the processes within the role and share some of their market knowledge. I try to limit the time spent by constraining the slides or word count needed to answer the problem.</p>
+<p>A final stage interview is them completed which includes a conversation about the homework.</p>
+<p>By now you should have enough insight to hire the best remote employee for the role.</p>
+<h2 id="close-with-the-best-possible-offer">Close with the best possible offer</h2>
+<p>Finally, I would recommend putting your best foot forward when making an offer to the candidate (in agreement with HR of course!). You should be confident that your selected candidate can do the job and you want to close them quickly. Remember highly skilled workers may have other offers on the table.</p>
+<p><strong>Good Luck!</strong></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Running remote teams</title>
+            <link>http://localhost:1313/posts/2020-08-notes-to-go-remote/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            
+            <guid>http://localhost:1313/posts/2020-08-notes-to-go-remote/</guid>
+            <description>The new normal is here - run your remote team well and continue to build excellent products
+With experience managing remote teams over the last 5 years, here are my cheat notes to ensure you remain productive whilst still having team harmony.
+Build your business rhythm We are all creatures of habit. Building habits into your team helps with productivity and alignment. Your team will know where to be and what to expect from the important meetings week in and out.</description>
+            <content type="html"><![CDATA[<p><code>The new normal is here - run your remote team well and continue to build excellent products</code></p>
+<p>With experience managing remote teams over the last 5 years, here are my cheat notes to ensure you remain productive whilst still having team harmony.</p>
+<h2 id="build-your-business-rhythm">Build your business rhythm</h2>
+<p>We are all creatures of habit. Building habits into your team helps with productivity and alignment. Your team will know where to be and what to expect from the important meetings week in and out.</p>
+<p>In my product teams, we run morning stand-ups and I believe they can work for everyone irrespective of role.</p>
+<p>Currently, we run weekly planning on Monday for an hour and then 15 mins on Wedsnesday and Friday mornings. Everyone can share their progress, challenges and ask for help. Assign someone to host the meeting (be the Scrum Master) and update the task board - Trello is still a firm faviourite here!  Our projects and other processes fit into these meeting. Issues are raised and more detailed discussions taken offline.</p>
+<p>For the wider processes (Sprint Planning, UAT, release dates), map out the cadences and make sure they are in the diary and  keep everyone updated about any changes. For wider dates across the company, shared calendars can be useful.</p>
+<h2 id="build-your-remote-culture-pick-your-tools-and-use-them">Build your remote culture, pick your tools and use them</h2>
+<p>Office culture exists even if there is no office.</p>
+<p>People have to work together and they build norms in doing so. As you start your remote team, think about the type of culture you want to create. Your product culture should be aligned with the company, but you may want to push certain values like openness and transparency. Check out the <a href="https://basecamp.com/handbook/01-basecamp-is-you">Basecamp employee handbook</a> for inspiration. They are experts.</p>
+<p>Tooling is essential to collaborate across geographies and timezones. So much has been written about this, so I won&rsquo;t go into any detail about it. Select your preferred messaging / video / knowledge management / ticketing platforms and make a start. Make sure that everyone uses them and that new starters are trained about how to use them too.</p>
+<h2 id="get-honest-feedback-with-retrospectives">Get honest feedback with retrospectives</h2>
+<p>Without seeing each other and &lsquo;lunch room chats&rsquo; sometimes process or team issues are not quickly addressed. Use a monthly retrospectives to get everything out in the open and discussed. Creating this time for your team can help with step change where previous processes are not working or don&rsquo;t exist. It is good to reflect and talk.</p>
+<p>If there are many issues to resolve, try to prioritise and focus. There may be only so much you can do before the next retro. Take things step by step.</p>
+<h2 id="mix-it-up-now-and-again">Mix it up now and again</h2>
+<p>With your team fully remote, the weeks can sometimes start to blur.</p>
+<p>Mix it up with special focus now and again. Perhaps you set aside a week to focus on operational issues or UX. Set the scope of  and let the team make progress. At the end of the week you can celebrate your wins!</p>
+<h2 id="try-to-see-each-other-once-in-a-while">Try to see each other once in a while</h2>
+<p>Although, this is difficult (even more so currently), it is worthwhile to see your team in person. Getting to know each other and realise your shared values is helpful especially during times of conflict or change.</p>
+<p>If this isn&rsquo;t possible, try at least to turn on the video once in a while!</p>
+<p><strong>Good Luck!</strong></p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

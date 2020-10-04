@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2020-04-24T14:46:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/reading/</loc>
+    <lastmod>2020-04-24T14:46:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2017-05-04T15:15:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/portfolio/</loc>
+    <lastmod>2017-05-04T15:15:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/projects/</loc>
+    <lastmod>2017-05-04T15:15:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/portfolio/2017-hi/</loc>
+    <lastmod>2017-05-04T15:15:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2017-05-04T15:15:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/posts/2020-08-5-steps-to-launch/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blog/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/posts/2020-08-building-your-sop/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/external-blog/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/posts/2020-08-remote-hiring-ticklist-/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/posts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/process/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/product-ops/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/remote-teams/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/posts/2020-08-notes-to-go-remote/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/series/</loc>
+  </url>
+  
+</urlset>
