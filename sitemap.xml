@@ -46,10 +46,6 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/2020-08-building-your-sop/</loc>
-  </url>
-  
-  <url>
     <loc>http://localhost:1313/tags/external-blog/</loc>
   </url>
   
@@ -59,10 +55,6 @@
   
   <url>
     <loc>http://localhost:1313/posts/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/process/</loc>
   </url>
   
   <url>
