@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>projects on Jason Downing</title>
-    <link>http://localhost:1313/tags/projects/</link>
+    <link>https://jasondowning.github.io/tags/projects/</link>
     <description>Recent content in projects on Jason Downing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 04 May 2017 15:15:30 +0100</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jasondowning.github.io/tags/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Something else</title>
-      <link>http://localhost:1313/portfolio/2017-hi/</link>
+      <link>https://jasondowning.github.io/portfolio/2017-hi/</link>
       <pubDate>Thu, 04 May 2017 15:15:30 +0100</pubDate>
       
-      <guid>http://localhost:1313/portfolio/2017-hi/</guid>
+      <guid>https://jasondowning.github.io/portfolio/2017-hi/</guid>
       <description>Hi</description>
     </item>
     

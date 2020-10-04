@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Product Ops on Jason Downing</title>
-    <link>http://localhost:1313/tags/product-ops/</link>
+    <link>https://jasondowning.github.io/tags/product-ops/</link>
     <description>Recent content in Product Ops on Jason Downing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     
-	<atom:link href="http://localhost:1313/tags/product-ops/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jasondowning.github.io/tags/product-ops/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>5 steps to plan your launch</title>
-      <link>http://localhost:1313/posts/2020-08-5-steps-to-launch/</link>
+      <link>https://jasondowning.github.io/posts/2020-08-5-steps-to-launch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/2020-08-5-steps-to-launch/</guid>
+      <guid>https://jasondowning.github.io/posts/2020-08-5-steps-to-launch/</guid>
       <description>You can only launch once, so do it right
 With PalmPay live in Nigeria and Ghana live and 4 more African markets inflight, here are some lessons from my experience over the last 2 years.
 1. Do your research I know this might appear obvious, but understanding the market landscape before you start gives you the power to make better long term decisions.

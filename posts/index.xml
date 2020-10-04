@@ -1,19 +1,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Jason Downing</title>
-        <link>http://localhost:1313/posts/</link>
+        <link>https://jasondowning.github.io/posts/</link>
         <description>Recent content in Posts on Jason Downing</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://jasondowning.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>5 steps to plan your launch</title>
-            <link>http://localhost:1313/posts/2020-08-5-steps-to-launch/</link>
+            <link>https://jasondowning.github.io/posts/2020-08-5-steps-to-launch/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
             
-            <guid>http://localhost:1313/posts/2020-08-5-steps-to-launch/</guid>
+            <guid>https://jasondowning.github.io/posts/2020-08-5-steps-to-launch/</guid>
             <description>You can only launch once, so do it right
 With PalmPay live in Nigeria and Ghana live and 4 more African markets inflight, here are some lessons from my experience over the last 2 years.
 1. Do your research I know this might appear obvious, but understanding the market landscape before you start gives you the power to make better long term decisions.
@@ -45,10 +45,10 @@ Spending time early on to get this right will direct your strategy and give your
         
         <item>
             <title>Hiring the best remotely: a checklist</title>
-            <link>http://localhost:1313/posts/2020-08-remote-hiring-ticklist-/</link>
+            <link>https://jasondowning.github.io/posts/2020-08-remote-hiring-ticklist-/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
             
-            <guid>http://localhost:1313/posts/2020-08-remote-hiring-ticklist-/</guid>
+            <guid>https://jasondowning.github.io/posts/2020-08-remote-hiring-ticklist-/</guid>
             <description>There is so much talent out there, you just need to find it
 I&amp;rsquo;ve worked with remote teams across Africa, Europe, America and Asia and have been hiring remote product teams over the last 3 years. Here are is a checklist to help
 Know what you want (aka write the perfect JD) You are the hiring manager! It is your role to shape the macro and micro aspects of the role.</description>
@@ -95,10 +95,10 @@ Know what you want (aka write the perfect JD) You are the hiring manager! It is 
         
         <item>
             <title>Running remote teams</title>
-            <link>http://localhost:1313/posts/2020-08-notes-to-go-remote/</link>
+            <link>https://jasondowning.github.io/posts/2020-08-notes-to-go-remote/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
             
-            <guid>http://localhost:1313/posts/2020-08-notes-to-go-remote/</guid>
+            <guid>https://jasondowning.github.io/posts/2020-08-notes-to-go-remote/</guid>
             <description>The new normal is here - run your remote team well and continue to build excellent products
 With experience managing remote teams over the last 5 years, here are my cheat notes to ensure you remain productive whilst still having team harmony.
 Build your business rhythm We are all creatures of habit. Building habits into your team helps with productivity and alignment. Your team will know where to be and what to expect from the important meetings week in and out.</description>
