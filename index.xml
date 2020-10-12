@@ -7,20 +7,54 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 04 May 2017 15:15:30 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jasondowning.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>hello there</title>
+      <title>5 steps to plan your launch</title>
+      <link>https://jasondowning.github.io/posts/2020-08-5-steps-to-launch/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasondowning.github.io/posts/2020-08-5-steps-to-launch/</guid>
+      <description>You can only launch once, so do it right
+With PalmPay live in Nigeria and Ghana live and 4 more African markets in-flight, here are some lessons from my experience over the last 2 years.
+1. Do your research I know this might appear obvious, but understanding the market landscape before you start gives you the power to make better long term decisions.
+Spending time early on to get this right will direct your strategy and give your project plan a strong foundation.</description>
+    </item>
+    
+    <item>
+      <title>Running remote teams</title>
+      <link>https://jasondowning.github.io/posts/2020-08-running-remote-teams/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasondowning.github.io/posts/2020-08-running-remote-teams/</guid>
+      <description>The new normal is here - run your remote team well and continue to build excellent products
+With experience managing remote teams over the last 5 years, here are my cheat notes to ensure you remain productive whilst still having harmony.
+Build your business rhythm We are all creatures of habit. Building habits into your team helps with productivity and alignment. Your team will know where to be and what to expect from the important meetings week in and out.</description>
+    </item>
+    
+    <item>
+      <title>Hiring the best remotely: a checklist</title>
+      <link>https://jasondowning.github.io/posts/2020-08-remote-hiring-ticklist-/</link>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasondowning.github.io/posts/2020-08-remote-hiring-ticklist-/</guid>
+      <description>There is so much talent out there, you just need to find it
+I&amp;rsquo;ve worked with remote teams across Africa, Europe, America and Asia and have been hiring remote product teams over the last 3 years. Here are is a checklist to help
+Know what you want (and write it down) You are the hiring manager! It is your role to shape the macro and micro aspects of the role.</description>
+    </item>
+    
+    <item>
+      <title>hello</title>
       <link>https://jasondowning.github.io/about/</link>
       <pubDate>Fri, 24 Apr 2020 14:46:36 +0100</pubDate>
       
       <guid>https://jasondowning.github.io/about/</guid>
-      <description>My name is Jason, nice to meet you!
+      <description>Hi! My name is Jason, nice to meet you.
 I started my product management career at Vodafone building M-PESA in multiple African markets. The service created a new business model for mobile operators.
-Afterwards, I moved to Skrill / Paysafe and learnt about marketplaces, card and alternative payments, CRMs and leading agile teams. I enjoyed working with our international teams in Bulgaria and Canada.
+Afterwards, I moved to Skrill / Paysafe and learned about marketplaces, cards and alternative payments, CRMs and leading agile dev teams. I enjoyed working with our international teams in Bulgaria and Canada.
 I had an exciting year as Head of Product with the M-KOPA Solar teams in UK and Nairobi, Kenya.</description>
     </item>
     
@@ -31,9 +65,8 @@ I had an exciting year as Head of Product with the M-KOPA Solar teams in UK and 
       
       <guid>https://jasondowning.github.io/reading/</guid>
       <description>Knowledge is power! Here is a collection of the best PM resources around
-General feeds a16z Silcon Valley PM Group Scott Galloway Benedict Evans
-Payment feeds Design and UX Business Tools and Processes PlantUML
-Books </description>
+A bit of a minimalist approach here, ping me if I should add others
+Some favorites  a16z Silcon Valley PM Group Scott Galloway Benedict Evans  Payment threads  FinExtra PYMNTS  Design and UX Business Tools and Processes  PlantUML Feedly RSS Reader  Books Note: updated on 12-10-2020</description>
     </item>
     
     <item>
@@ -43,40 +76,6 @@ Books </description>
       
       <guid>https://jasondowning.github.io/portfolio/2017-hi/</guid>
       <description>Hi</description>
-    </item>
-    
-    <item>
-      <title>5 steps to plan your launch</title>
-      <link>https://jasondowning.github.io/posts/2020-08-5-steps-to-launch/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jasondowning.github.io/posts/2020-08-5-steps-to-launch/</guid>
-      <description>You can only launch once, so do it right
-With PalmPay live in Nigeria and Ghana live and 4 more African markets inflight, here are some lessons from my experience over the last 2 years.
-1. Do your research I know this might appear obvious, but understanding the market landscape before you start gives you the power to make better long term decisions.
-Spending time early on to get this right will direct your strategy and give your project plan a strong foundation.</description>
-    </item>
-    
-    <item>
-      <title>Hiring the best remotely: a checklist</title>
-      <link>https://jasondowning.github.io/posts/2020-08-remote-hiring-ticklist-/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jasondowning.github.io/posts/2020-08-remote-hiring-ticklist-/</guid>
-      <description>There is so much talent out there, you just need to find it
-I&amp;rsquo;ve worked with remote teams across Africa, Europe, America and Asia and have been hiring remote product teams over the last 3 years. Here are is a checklist to help
-Know what you want (aka write the perfect JD) You are the hiring manager! It is your role to shape the macro and micro aspects of the role.</description>
-    </item>
-    
-    <item>
-      <title>Running remote teams</title>
-      <link>https://jasondowning.github.io/posts/2020-08-notes-to-go-remote/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jasondowning.github.io/posts/2020-08-notes-to-go-remote/</guid>
-      <description>The new normal is here - run your remote team well and continue to build excellent products
-With experience managing remote teams over the last 5 years, here are my cheat notes to ensure you remain productive whilst still having team harmony.
-Build your business rhythm We are all creatures of habit. Building habits into your team helps with productivity and alignment. Your team will know where to be and what to expect from the important meetings week in and out.</description>
     </item>
     
   </channel>
