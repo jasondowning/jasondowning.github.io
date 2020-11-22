@@ -6,8 +6,49 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 18 Nov 2020 11:23:31 +0000</lastBuildDate>
         <atom:link href="https://jasondowning.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Building your Standard Operating Procedure</title>
+            <link>https://jasondowning.github.io/posts/2020-08-building-your-sop/</link>
+            <pubDate>Wed, 18 Nov 2020 11:23:31 +0000</pubDate>
+            
+            <guid>https://jasondowning.github.io/posts/2020-08-building-your-sop/</guid>
+            <description>Great services are build by amazing teams and strong processes
+Know your Standard Operating Procedure How will you know what to improve if you don&amp;rsquo;t understand the operational model of your business?
+A Standard Operating Procedure (SOP) is a collection of all the processes within your business. This is just a fancy way of saying you know how your business operates.
+Encourage each department to make their own process list - ultimately each team is responsible for their own activities.</description>
+            <content type="html"><![CDATA[<p><code>Great services are build by amazing teams and strong processes</code></p>
+<h2 id="know-your-standard-operating-procedure">Know your Standard Operating Procedure</h2>
+<p>How will you know what to improve if you don&rsquo;t understand the operational model of your business?</p>
+<p>A Standard Operating Procedure (SOP) is a collection of all the processes within your business. This is just a fancy way of saying you know how your business operates.</p>
+<p>Encourage each department to make their own process list - ultimately each team is responsible for their own activities. Sometimes this work is driven centrally, but from personal experience it feels more honest to have a decentralised structure. Centrally, you can encourage improvements by challenging individual metrics.</p>
+<p>As you scale you may have a set of process documents even use tooling to capture a full model. However, to start, a list of each process with inputs and outcomes will be enough. Using a light weight approach is especially important in start-ups as the business must grow and change quickly.</p>
+<h2 id="dont-burn-the-toast">Don&rsquo;t burn the toast!</h2>
+<p>In High Output Management (Andy Grove, 1983) there is a great business process analogy of a cafe making eggs and toast for breakfast. There are multiple layers to such a simple process:</p>
+<ul>
+<li>Which steps are needed for breakfast?</li>
+<li>What order should the steps be in? (Eggs take longer to cook than toast)</li>
+<li>Which steps are critical? (Don&rsquo;t burn the toast!)</li>
+</ul>
+<p>You should try to capture the key activities within each process, writing enough to articulate the important aspects of the process. There are standards for this type of documentation (e.g. BPMN), but try not to go over do it! Things will always change.</p>
+<h2 id="understand-your-business-with-metrics">Understand your business with metrics</h2>
+<p>Monitoring the critical parts of your business is essential to respond to change and track your progress. This is done by defining simple and compound metrics to give you an understanding of the business at each level. Clearly different businesses will have different metrics - manufacturing is not the same as FinTech!</p>
+<p>Broadly, you should include:</p>
+<ul>
+<li>Customer satisfaction - is the customer happy with the outcome? (Often we use NPS as a proxy here)</li>
+<li>Headline metrics - including revenue, Customer Acquisition Costs, Active Users, Growth</li>
+<li>Output metrics - how many units of work did the business complete? (How many eggs and toast were made?)</li>
+<li>Quality / efficiency metrics - how efficiently did the business take inputs and make outputs? (How quickly did we serve breakfast? Did we spoil any of the eggs or toast?)</li>
+</ul>
+<p>Capturing data from a process to generate your metrics may sometimes be challenging (for example, the process may be manual instead of digital). If you cannot measure the metric, reflect on the maturity of that department / process and consider how to enhance your tooling.</p>
+<h2 id="review-your-shared-metrics-often">Review your shared metrics often</h2>
+<p>Sharing the metrics and monitoring them with your management team enables everyone to focus with the same level of understanding. Set-up a weekly meeting to review the metrics and reflect on your progress. Feel free to dive into the data beyond the metrics for further insights.</p>
+<p><strong>Good Luck!</strong></p>
+<p>PS - a16z has some excellent thoughts on <a href="https://a16z.com/2015/08/21/16-metrics/">start-up metrics</a></p>
+]]></content>
+        </item>
         
         <item>
             <title>5 steps to plan your launch</title>
