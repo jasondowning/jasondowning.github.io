@@ -25,14 +25,14 @@ The original article is on <a href="https://palmpay.co/tales-from-the-loop-hacki
 <p>The Gates Foundation and others believe that one part of the financial inclusion problem is due to the limits of existing payments infrastructure. With an aim to improve inclusion they started an open-source project called Mojaloop in 1997. The platform aims to reduce payment costs, build bridges between existing systems and create new experiences for customers. Moja means ‘one’ in Swahili – one loop for everyone.</p>
 <p>Mojaloop is a payment switch which is available to anyone and can be used for P2P transfers, account management and general disbursements. The software is supported by the Mojaloop Foundation with a team of technical experts who continue to build depth into the platform. We wanted to explore how it could be relevant to PalmPay in our existing and new markets.</p>
 <p>Starting bright and early on Wednesday, we installed Discord, and got ready for 3 busy days of learning, talking and hacking. Some well known names joined us including Chipper Cash, Abeg and OnePipe.</p>
-<p><img src="%5Cstatic%5CDiscord.png" alt="Discord"></p>
+<p><img src="%5Cstatic%5Cimages%5CDiscord.png" alt="Discord"></p>
 <h2 id="the-problem">The Problem</h2>
 <p>Conversation and socializing has always been a big part of commerce in Africa &amp; other emerging markets. It’s how potential customers engage merchants, get the best deals and assess the quality of the merchant. Over the years, companies have tried to implement payment bots to digitalise these flows. Previously this has come with some challenges including implementation costs, high transaction fees and limited payment options.</p>
 <p>However, this market dynamic is changing as WhatsApp and other social media platforms improve their e-commerce offerings. Perhaps you’ve started seeing WhatsApp for Business in real life as you interact with small merchants?</p>
 <p>If you can review a catalogue of products within WhatsApp, then the merchant is using the business version of the app. However, currently there is no embedded payment flow in the African markets to complete the sale. Our idea was to try to close the loop and build out a “Conversational Commerce” experience. This would help customers make payments over their favourite messaging app.</p>
 <h2 id="our-approach">Our Approach</h2>
 <p>To create our ideal experience we explored how to link the WhatsApp for Business API to Mojaloop via a bot which would help guide the customer through their purchase. Overall, the flow would be something like this:</p>
-<p><img src="%5Cstatic%5CSystem.png" alt="System flow"></p>
+<p><img src="%5Cimages%5CSystem.png" alt="System"></p>
 <p>To make it happen we need APIs and logic for the following steps:</p>
 <ol>
 <li>Customer conversation</li>
@@ -68,9 +68,9 @@ The original article is on <a href="https://palmpay.co/tales-from-the-loop-hacki
 <p>We enjoyed the relevance of this idea when WhatsApp changed their user T&amp;Cs on Thursday to facilitate this exact flow within their own platform. They have to share data with Facebook when the WhatsApp for Business APIs is hosted by Facebook on behalf of the merchant. As you might have seen, they experienced some critical customer feedback, but that’s a blog post for another day!</p>
 <p>The hackathon took a Design Sprint approach allowing the team to explore and challenge our ideas before creating a prototype. We used the thinking time early in the Sprint to research, focus on the problem area and explore different ways of making the experience real.</p>
 <p>The testing platform was extremely helpful to get the API calls working correct – a huge thanks to Stephen from Mojaloop for the support here🙏. If you look closely you can see an account look-up and payment being made here (read from the bottom and go up):</p>
-<p><img src="%5Cstatic%5CMojaloop.png" alt="Mojaloop"></p>
+<p><img src="%5Cstatic%5Cimages%5CMojaloop.png" alt="Mojaloop"></p>
 <p>Adding this to our WhatsApp experience we end up with an end to end flow to sell a tennis ball to a customer:</p>
-<p><img src="%5Cstatic%5CWhatsApp.png" alt="WhatsApp"></p>
+<p><img src="%5Cstatic%5Cimages%5CWhatsApp.png" alt="WhatsApp"></p>
 <p>We started thinking about how to tie together the mocked up front end directly to the APIs using  Retool, but didn’t finish before the demo in the evening. It was always our aim to do the backend work first and get the solution design correct, so we weren’t surprised to run out of time! If you want to explore more no code platforms here are some additional thoughts.</p>
 <h2 id="with-thanks">With thanks!</h2>
 <p>Hackathons are hard but enjoyable. You start with many “unknown unknowns” both on your initial idea and with the technology. Unpicking the threads and finding your way, as a team, takes perseverance but has rewards as everything comes together.</p>
