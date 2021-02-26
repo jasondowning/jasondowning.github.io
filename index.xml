@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 18 Nov 2020 11:23:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jasondowning.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tales from the loop: hacking with the Gates Foundation open source payment’s switch</title>
+      <link>https://jasondowning.github.io/posts/2021-01-tales-from-the-loop/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasondowning.github.io/posts/2021-01-tales-from-the-loop/</guid>
+      <description>Repost from January 15th 2021. The original article is on PalmPay.co
+Introduction Two weeks ago, a small team of adventurers from PalmPay joined the Mojaloop hackathon which was organised by DSF Labs on behalf of the Gates Foundation. Wow, that sentence needs explaining! Let’s get some background.
+The Gates Foundation and others believe that one part of the financial inclusion problem is due to the limits of existing payments infrastructure. With an aim to improve inclusion they started an open-source project called Mojaloop in 1997.</description>
+    </item>
     
     <item>
       <title>Building your Standard Operating Procedure</title>
