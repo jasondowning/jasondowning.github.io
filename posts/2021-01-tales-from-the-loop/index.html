@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Tales from the loop: hacking with the Gates Foundation open source payment’s switch
+Repost from January 15th 2021. The original article is on [PalmPay.co] (https://palmpay.co/tales-from-the-loop-hacking-with-the-gates-foundation/)
+Introduction Two weeks ago, a small team of adventurers from PalmPay joined the Mojaloop hackathon which was organised by DSF Labs on behalf of the Gates Foundation. Wow, that sentence needs explaining! Let’s get some background.
+The Gates Foundation and others believe that one part of the financial inclusion problem is due to the limits of existing payments infrastructure." />
+<meta name="keywords" content=", external-blog, Hackathon" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://jasondowning.github.io/posts/2021-01-tales-from-the-loop/" />
+
+
+    <title>
+        
+            Tales from the Loop :: Jason Downing 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.753fac8f03736f0edc9be411eb20cee875dd7bb8e73c8155fbf6a629c863f4ca.css">
+
+
+
+
+
+
+<meta itemprop="name" content="Tales from the Loop">
+<meta itemprop="description" content="Tales from the loop: hacking with the Gates Foundation open source payment’s switch
+Repost from January 15th 2021. The original article is on [PalmPay.co] (https://palmpay.co/tales-from-the-loop-hacking-with-the-gates-foundation/)
+Introduction Two weeks ago, a small team of adventurers from PalmPay joined the Mojaloop hackathon which was organised by DSF Labs on behalf of the Gates Foundation. Wow, that sentence needs explaining! Let’s get some background.
+The Gates Foundation and others believe that one part of the financial inclusion problem is due to the limits of existing payments infrastructure.">
+<meta itemprop="datePublished" content="2020-01-20T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-01-20T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="849">
+<meta itemprop="image" content="https://jasondowning.github.io/gitlab"/>
+
+
+
+<meta itemprop="keywords" content="external-blog,Hackathon," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://jasondowning.github.io/gitlab"/>
+
+<meta name="twitter:title" content="Tales from the Loop"/>
+<meta name="twitter:description" content="Tales from the loop: hacking with the Gates Foundation open source payment’s switch
+Repost from January 15th 2021. The original article is on [PalmPay.co] (https://palmpay.co/tales-from-the-loop-hacking-with-the-gates-foundation/)
+Introduction Two weeks ago, a small team of adventurers from PalmPay joined the Mojaloop hackathon which was organised by DSF Labs on behalf of the Gates Foundation. Wow, that sentence needs explaining! Let’s get some background.
+The Gates Foundation and others believe that one part of the financial inclusion problem is due to the limits of existing payments infrastructure."/>
+
+
+
+    <meta property="og:title" content="Tales from the Loop" />
+<meta property="og:description" content="Tales from the loop: hacking with the Gates Foundation open source payment’s switch
+Repost from January 15th 2021. The original article is on [PalmPay.co] (https://palmpay.co/tales-from-the-loop-hacking-with-the-gates-foundation/)
+Introduction Two weeks ago, a small team of adventurers from PalmPay joined the Mojaloop hackathon which was organised by DSF Labs on behalf of the Gates Foundation. Wow, that sentence needs explaining! Let’s get some background.
+The Gates Foundation and others believe that one part of the financial inclusion problem is due to the limits of existing payments infrastructure." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jasondowning.github.io/posts/2021-01-tales-from-the-loop/" />
+<meta property="og:image" content="https://jasondowning.github.io/gitlab"/>
+<meta property="article:published_time" content="2020-01-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-20T00:00:00+00:00" />
+
+
+
+
+
+
+    <meta property="article:published_time" content="2020-01-20 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">Jason Downing</span>
+            <span class="logo__cursor" style=
+                  "visibility:hidden;
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://jasondowning.github.io/about">about</a></li><li><a href="https://jasondowning.github.io/posts/">blog</a></li><li><a href="https://jasondowning.github.io/reading">reading</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>4 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title">
+                <a href="https://jasondowning.github.io/posts/2021-01-tales-from-the-loop/">Tales from the Loop</a>
+            </h1>
+
+            
+
+            <div class="post-content">
+                <p><code>Tales from the loop: hacking with the Gates Foundation open source payment’s switch</code></p>
+<p>Repost from January 15th 2021. The original article is on [PalmPay.co] (<a href="https://palmpay.co/tales-from-the-loop-hacking-with-the-gates-foundation/">https://palmpay.co/tales-from-the-loop-hacking-with-the-gates-foundation/</a>)</p>
+<h2 id="introduction">Introduction</h2>
+<p>Two weeks ago, a small team of adventurers from PalmPay joined the Mojaloop hackathon which was organised by DSF Labs on behalf of the Gates Foundation. Wow, that sentence needs explaining! Let’s get some background.</p>
+<p>The Gates Foundation and others believe that one part of the financial inclusion problem is due to the limits of existing payments infrastructure. With an aim to improve inclusion they started an open-source project called Mojaloop in 1997. The platform aims to reduce payment costs, build bridges between existing systems and create new experiences for customers. Moja means ‘one’ in Swahili – one loop for everyone.</p>
+<p>Mojaloop is a payment switch which is available to anyone and can be used for P2P transfers, account management and general disbursements. The software is supported by the Mojaloop Foundation with a team of technical experts who continue to build depth into the platform. We wanted to explore how it could be relevant to PalmPay in our existing and new markets.</p>
+<p>Starting bright and early on Wednesday, we installed Discord, and got ready for 3 busy days of learning, talking and hacking. Some well known names joined us including Chipper Cash, Abeg and OnePipe.</p>
+<p><img src="%5Cstatic%5CHackathon%5CDiscord.png" alt="Discord"></p>
+<h2 id="the-problem">The Problem</h2>
+<p>Conversation and socializing has always been a big part of commerce in Africa &amp; other emerging markets. It’s how potential customers engage merchants, get the best deals and assess the quality of the merchant. Over the years, companies have tried to implement payment bots to digitalise these flows. Previously this has come with some challenges including implementation costs, high transaction fees and limited payment options.</p>
+<p>However, this market dynamic is changing as WhatsApp and other social media platforms improve their e-commerce offerings. Perhaps you’ve started seeing WhatsApp for Business in real life as you interact with small merchants?</p>
+<p>If you can review a catalogue of products within WhatsApp, then the merchant is using the business version of the app. However, currently there is no embedded payment flow in the African markets to complete the sale. Our idea was to try to close the loop and build out a “Conversational Commerce” experience. This would help customers make payments over their favourite messaging app.</p>
+<h2 id="our-approach">Our Approach</h2>
+<p>To create our ideal experience we explored how to link the WhatsApp for Business API to Mojaloop via a bot which would help guide the customer through their purchase. Overall, the flow would be something like this:</p>
+<p>To make it happen we need APIs and logic for the following steps:</p>
+<p>Customer conversation 
+Look up merchant payment details 
+Receive and process the payment 
+Communicate the payment result</p>
+<p>The flow is split into two parts – communication (steps 1 and 4) and payments (steps 2 and 3).</p>
+<p>Type 	Approach 	Example APIs 
+Communication 	
+Mock the WhatsApp for Business APIs to send and receive messages 
+Open a sandbox account at Twilio
+POST api.twilio.com/Accounts/SID/Messages
+Payments 	
+Use the Mojaloop APIs to 
+Look up the merchant 
+Initiate a transfer 
+Use the demo Mojaloop platform, tech docs here. 
+GET beta.moja-lab.live/parties
+POST</p>
+<p>beta.moja-lab.live/quotes</p>
+<p>POST</p>
+<p>beta.moja-lab.live/transfer</p>
+<h2 id="what-we-built">What we built</h2>
+<p>We enjoyed the relevance of this idea when WhatsApp changed their user T&amp;Cs on Thursday to facilitate this exact flow within their own platform. They have to share data with Facebook when the WhatsApp for Business APIs is hosted by Facebook on behalf of the merchant. As you might have seen, they experienced some critical customer feedback, but that’s a blog post for another day!</p>
+<p>The hackathon took a Design Sprint approach allowing the team to explore and challenge our ideas before creating a prototype. We used the thinking time early in the Sprint to research, focus on the problem area and explore different ways of making the experience real.</p>
+<p>The testing platform was extremely helpful to get the API calls working correct – a huge thanks to Stephen from Mojaloop for the support here🙏. If you look closely you can see an account look-up and payment being made here (read from the bottom and go up):</p>
+<p>Adding this to our WhatsApp experience we end up with an end to end flow to sell a tennis ball to a customer:</p>
+<p>We started thinking about how to tie together the mocked up front end directly to the APIs using  Retool, but didn’t finish before the demo in the evening. It was always our aim to do the backend work first and get the solution design correct, so we weren’t surprised to run out of time! If you want to explore more no code platforms here are some additional thoughts.</p>
+<h2 id="with-thanks">With thanks!</h2>
+<p>Hackathons are hard but enjoyable. You start with many “unknown unknowns” both on your initial idea and with the technology. Unpicking the threads and finding your way, as a team, takes perseverance but has rewards as everything comes together.</p>
+<p>A huge thank you to the teams at DFS Lab and Mojaloop for running the hackathon and to the Gates Foundation for this hugely exciting project. We enjoyed the loops and learnt a lot!</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://jasondowning.github.io/tags/external-blog">external-blog</a></span><span class="tag"><a href="https://jasondowning.github.io/tags/hackathon">Hackathon</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>849 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-01-20 00:00 &#43;0000</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h">Read other posts</span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+                        <span class="button previous">
+                            <a href="https://jasondowning.github.io/posts/2020-08-remote-hiring-ticklist-/">
+                                <span class="button__icon">←</span>
+                                <span class="button__text">Hiring the best remotely: a checklist</span>
+                            </a>
+                        </span>
+                    
+
+                    
+                </div>
+            </div>
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span> <a href="https://jasondowning.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Theme based on <a href="https://themes.gohugo.io/hugo-theme-hello-friend-ng/">hello friend ng</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.4a69500057d68129e88f497d354afe68422eb56de6d15e45dbe2190858ea5a76bfcb096406f992984b241db45f47388ac57ab0376e3b32125bef7a8a6d0f06c4.js" integrity="sha512-SmlQAFfWgSnoj0l9NUr&#43;aEIutW3m0V5F2&#43;IZCFjqWna/ywlkBvmSmEskHbRfRziKxXqwN247MhJb73qKbQ8GxA=="></script>
+
+
+
+    </body>
+</html>
