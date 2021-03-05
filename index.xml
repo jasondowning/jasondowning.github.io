@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jasondowning.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Card issuing &amp; program management - a synopsis</title>
+      <link>https://jasondowning.github.io/posts/2021-02-becoming-a-card-issuer1/</link>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jasondowning.github.io/posts/2021-02-becoming-a-card-issuer1/</guid>
+      <description>Thinking about becoming a program manager? Think carefully...
+Setting up a card issuing business line requires collaboration and careful business modeling.
+The setup: becoming a Program Manager To issue cards you need to play in two regulatory spaces - firstly within the central bank&amp;rsquo;s regulations and secondly within the card scheme regulations. Depending on the country there are different roles which will be played out by each institution. Let&amp;rsquo;s assume that your company will partner with a bank to launch the card product.</description>
+    </item>
     
     <item>
       <title>Tales from the loop: hacking with the Gates Foundation open source payment’s switch</title>

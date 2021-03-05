@@ -6,8 +6,73 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://jasondowning.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Card issuing &amp; program management - a synopsis</title>
+            <link>https://jasondowning.github.io/posts/2021-02-becoming-a-card-issuer1/</link>
+            <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://jasondowning.github.io/posts/2021-02-becoming-a-card-issuer1/</guid>
+            <description>Thinking about becoming a program manager? Think carefully...
+Setting up a card issuing business line requires collaboration and careful business modeling.
+The setup: becoming a Program Manager To issue cards you need to play in two regulatory spaces - firstly within the central bank&amp;rsquo;s regulations and secondly within the card scheme regulations. Depending on the country there are different roles which will be played out by each institution. Let&amp;rsquo;s assume that your company will partner with a bank to launch the card product.</description>
+            <content type="html"><![CDATA[<p><code>Thinking about becoming a program manager? Think carefully...</code></p>
+<p>Setting up a card issuing business line requires collaboration and careful business modeling.</p>
+<h2 id="the-setup-becoming-a-program-manager">The setup: becoming a Program Manager</h2>
+<p>To issue cards you need to play in two regulatory spaces - firstly within the central bank&rsquo;s regulations and secondly within the card scheme regulations. Depending on the country there are different roles which will be played out by each institution. Let&rsquo;s assume that your company will partner with a bank to launch the card product.</p>
+<p>The following entities are relevant:</p>
+<ol>
+<li><strong>Issuing Bank</strong> (aka BIN Sponsor) - this is the bank which is licensed by your Central Bank AND the Card Scheme to issue cards</li>
+<li><strong>Technology Provider</strong> (aka 3rd Party Processor, TPP) - a company which is certified by the Card Scheme to issue cards and to process transactions against those cards</li>
+<li><strong>Card Scheme</strong> (in the west this is likely Visa or MasterCard) - you&rsquo;ll need to decide which type of card you wish to issue, this may be done in collaboration with your Technology Provider or you may also have a side deal with the 
+Card Scheme directly</li>
+<li><strong>Program Manager</strong> - Yourself! You are responsible for executing the whole end to end service, including product design, customer care, operations and marketing</li>
+</ol>
+<p>The Program Manager owns the customer and the other parties generally sit in the background. Of course the card scheme logo still goes on the card!</p>
+<p>When a customer makes a purchase on the newly issued card is it routed through the 4 party model (merchant &gt; acquiring bank &gt; card scheme) to your Technology Provider (which is working on behalf of the issuing bank) and funds are taken from the card if the transaction is approved successfully. This partnership is important to operationally support your customers.</p>
+<p><em>Note - Card schemes are unique network businesses and tend to be governed by their rule books. The lawyers at Visa HQ sit on the top floor for a reason :)</em></p>
+<h2 id="going-live-play-by-the-rules">Going live: play by the rules</h2>
+<p>So by this stage you have agreements with your BIN sponsor, a Technology Provider and perhaps a Card Scheme. You&rsquo;ve done your integration and designed the product UX. You&rsquo;re ready to go, right?</p>
+<p>Well, nearly&hellip;here are some extra things to think about:</p>
+<ol>
+<li><strong>Customer tariff</strong> - how does your business model reflect within the tariff set for the customer and how will you communicate this effectively?</li>
+<li><strong>Operational processes</strong> - have your trained your team on the relevant processes? These will mostly be financial but may also include compliance aspects.</li>
+<li><strong>Settlement to Visa</strong> - have you pre-funded your settlement account at your BIN sponsor ready for customer spending?</li>
+<li><strong>Commercial settlements to your partners</strong> - how does revenue reporting work within your commercial agreements?</li>
+<li><strong>Data management</strong> - how will you get data from your Technology Provider to run customer analytics and the relevant customer promotions?</li>
+</ol>
+<p>The operation of the card product is governed by the Card Scheme rules. They control the settlement cycle and will charge their fees pre-settlement. You&rsquo;ll receive monthly invoices from the BIN Sponsor which explain the fee structures. Be careful that you understand the fees, there is some complexity here!</p>
+<h2 id="pricing-pricing-pricing">Pricing, pricing, pricing</h2>
+<p>And to the heart of the product - does it make money?!</p>
+<p>You might get revenue from the following sources:</p>
+<ul>
+<li>Customer fees (transactional or periodic)</li>
+<li>Share of interchange</li>
+<li>Share of FX on international spending</li>
+</ul>
+<p>You might have costs from the following sources:</p>
+<ul>
+<li>Transaction processing from your Technology Provider</li>
+<li>Transaction processing from the Card Scheme</li>
+<li>Costs around liability shifts (for example, the OTP SMS and processing from Cardinal Commerce or similar)</li>
+<li>Commercial arrangement with the BIN Sponsor</li>
+<li>Commercial arrangement with Technology Provider</li>
+</ul>
+<p>Domestic and international transactions will have different cost/revenue profiles, with the FX making international transactions more profitable. However, they will also have higher costs from the Card Scheme as they claim more value for the more complex routing. As you plan the business model - make sure that ALL fees from the Card Scheme are known (including payments for declined transactions!). Personally feels like card scheme pricing models have become more and more &lsquo;optimised&rsquo; (i.e. horribly confusing) overtime. Your BIN sponsor should inform you of any changes.</p>
+<p>Many of these transnational fees will need to be offset with customer fees. BUT, as you&rsquo;ll want to keep your fee structure simple, some fees might have to be covered by general pricing. Depending on your market some fees may also be limited by regulation. We&rsquo;ve European FinTechs work towards subscription models by bundling many services together to cover their costs. This is a good route towards profitability. Adding segmentmentation on top (hello Revolut Metal card) is also a good strategy.</p>
+<h2 id="but-cards-are-a-commodity">BUT cards are a commodity</h2>
+<p>As card payments are useful to customers, we&rsquo;ve seen many FinTechs provide virtual and/or physical cards to customers, but the core &lsquo;spending&rsquo; feature is a commodity.</p>
+<p>As you launch the service, you&rsquo;ll need to understand what additional value you&rsquo;ll be providing to customers. These value adds will differentiate your service from others and ensure adoption with your customer base. Other companies have each taken a different path around some common themes including security, transparency, promotions, credit provision and spending management or a mix of all of them.</p>
+<p>Checkout the <a href="https://techcrunch.com/2019/03/28/how-apple-card-works/">Apple Card</a> launch in the US from 2019 for a wonderful play book of how to do this successfully. Apple gave customers a cashback offer and tied the card strongly into the ApplePay channel. Among other things, later they extended interest free offers for the purchase of Apple goods. Buy your iPhone from Apple with Apple anyone?</p>
+<p>As you think through these additional services you may want to reflect on your original business model for the core spending aspects, it may enable or disable certain paths depending on how you have configured it. Now might be a good time to address your assumptions given your future plans.</p>
+<h2 id="summary">Summary</h2>
+<p>Many companies have become Program Managers and launched physical or virtual cards. If you are planning on doing the same, I suggest you to go in with your eyes open!</p>
+<p>Like with everything, make sure to know what value you can provide and do your homework 😊</p>
+<p>Good luck!</p>
+]]></content>
+        </item>
         
         <item>
             <title>Tales from the loop: hacking with the Gates Foundation open source payment’s switch</title>
